@@ -50,6 +50,10 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 }
+.link {
+    color: var(--accent-color);
+    text-decoration:none;
+}
 .logo_link {
     cursor: pointer;
 }
