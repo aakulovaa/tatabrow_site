@@ -76,7 +76,7 @@ body {
     min-height: 570px;
 }
 .about__title {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .name {
     max-width: 570px;
@@ -107,25 +107,30 @@ body {
 }
 /* sale */
 .sale_title {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .img_sale {
     margin-top: 50px;
     float: right;
     width: 800px;
     height: 260px;
+    position: relative;
 }
 .sale_in {
     margin-top: 32px;
     max-width: 240px;
 }
-/* .circle{
-    height: 50px;
-    width: 50px;
+.circle{
+    height: 70px;
+    width: 70px;
     background-color: black;
     border-radius: 50%;
+    position: absolute;
+    left: 30%;
 }
 .sale_price{
     color: #ffffff;
-    text-align-last: center;
-} */
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
