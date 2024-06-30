@@ -223,13 +223,6 @@ body {
     border: 10px solid var(--accent-color);
 
 }
-.rectangle{
-    width: 400px;
-    height: 1px;
-    background-color: black;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
 .send {
     margin-top: 16px;
     background-color: var(--accent-color);
@@ -240,6 +233,7 @@ body {
     height: 40px;
     margin-top: 32px;
     margin-bottom: 32px;
+    cursor: pointer;
 }
 .name_for_registr {
     width: 400px;
