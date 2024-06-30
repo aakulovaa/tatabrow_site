@@ -36,6 +36,10 @@ body {
     font-weight: 400;
     font-size: 14px;
 }
+.btn_link {
+    color: #ffffff;
+    text-decoration:none;
+}
 /* header */
  .header {
     color: var(--accent-color);
@@ -206,4 +210,55 @@ body {
     margin-top: -30px;
     width: 180px;
 }
+/* online registration */
+.online__registr{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 560px;
+    height: 630px;
+}
+.registration_title {
+    padding-left: 32px;
+    border: 10px solid var(--accent-color);
 
+}
+.rectangle{
+    width: 400px;
+    height: 1px;
+    background-color: black;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.send {
+    margin-top: 16px;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border-radius: 40%;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.name_for_registr {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 32px;
+}
+.phone_for_registr {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 32px;
+}
+.message_for_registr{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 32px;
+}
+.color__text{
+    color: var(--accent-color);
+}

@@ -29,7 +29,7 @@
                     контакты
                 </h3>
                 <button class="sign_up">
-                    записаться онлайн
+                    <a href="#registration_src" class="btn_link">записаться онлайн</a>
                 </button>
             </div>
         </div>
@@ -208,6 +208,27 @@
                                 <h3 class="text-h3 price_cost">800р.</h3>
                                 <h3 class="text-h3 price_desc">(хна или краска)</h3>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- online registration -->
+                <div class="container">
+                    <div class="online__registr">
+
+                        <div id="registration_src" class="registration_title">
+                            <h2 class="text-h2 regististr_name">Запись онлайн</h2>
+                            <h3 class="text-h3">Ваше имя:</h3>
+                            <input type="text" id="name" class="text-h3 name_for_registr">
+                            <h3 class="text-h3">Контактный телефон:</h3>
+                            <input type="tel" id="phone" class="text-h3 phone_for_registr">
+                            <h3 class="text-h3">Сообщение:</h3>
+                            <input type="text" id="message" class="text-h3 message_for_registr">
+                            <form>
+                                <input id="agree" type="checkbox">
+                                <label for="agree">Я согласен(а) на <span class="color__text">обработку персональных данных</span></label>
+                            </form>
+                            <button class="send">Отправить</button>
                         </div>
                     </div>
                 </div>
