@@ -1,13 +1,57 @@
-/* 
-.inter-<uniquifier="header"> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <400>;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-} */
- 
- .header{
-    color: rgba(181, 15, 0, 1);
- }
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+:root{
+    --accent-color: rgba(181, 15, 0, 1);
+}
+/* text styles */
+.text-h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.text-h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+.text-h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* шапка */
+ .header {
+    color: var(--accent-color);
+    min-height: 604px;
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__title {
+    padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.sign_up {
+    color: rgb(255, 255, 255);
+    width: 151px;
+    height: 37px;
+    font-size: 14px;
+    background-color: var(--accent-color);
+    border: none;
+}
+
