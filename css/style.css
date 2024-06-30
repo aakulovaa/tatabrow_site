@@ -4,6 +4,10 @@ html{
 *,*::before,*::after{
     box-sizing: inherit;
 }
+img{
+    display: block;
+    max-width: 100%;
+}
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -46,21 +50,25 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 }
-.logo{
+.logo_link {
     cursor: pointer;
 }
-.sale {
+.text-h3 {
     cursor: pointer;
 }
-.price {
+.sale_link {
     cursor: pointer;
 }
-.portfolio {
+.price_link {
     cursor: pointer;
 }
-.contacts {
+.portfolio_link {
     cursor: pointer;
 }
+.contacts_link {
+    cursor: pointer;
+}
+
 .sign_up {
     color: rgb(255, 255, 255);
     width: 151px;
@@ -102,6 +110,40 @@ body {
     cursor: pointer;
     padding: 0;
 }
+/* portfolio */
+.portfolio_title{
+    padding-top: 50px;
+}
+.portfolio {
+    max-width: 570px;
+    text-align: left;
+}
+
+.portfolio_desc {
+    margin-top: 32px;
+}
+.about__flex {
+    display: inline-flex;
+}
+.about__flex-item {
+    max-width: 300px;
+    margin-right: 32px;
+}
+.img_portfolio {
+    margin-top: 32px;
+    position: relative;
+    width: 242px;
+    height: 300px;
+}
+.work_name {
+    border: 1px solid black;
+    padding: 10px 20px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 10px;
+
+}
+
 /* sale */
 .sale_title {
     padding-top: 50px;
@@ -124,10 +166,12 @@ body {
     border-radius: 50%;
     position: absolute;
     left: 30%;
+    margin-top: 100px;
 }
 .sale_price{
     color: #ffffff;
     text-align: center;
     position: relative;
     top: 10px;
+    transform: rotate(20deg);
 }
