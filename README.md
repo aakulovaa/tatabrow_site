@@ -14,4 +14,6 @@ The main purpose of creating a website is to attract new clients.
 
 This site was designed to consolidate knowledge in learning `HTML`, `CSS`.
 
+[Site preview](https://aakulovaa.github.io/tatabrow_site/)
+
 [Layout of this work on Behance](https://www.behance.net/gallery/201214361/TataBrow-landing)
