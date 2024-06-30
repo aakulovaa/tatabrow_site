@@ -116,7 +116,7 @@ body {
 }
 /* portfolio */
 .portfolio_title{
-    padding-top: 50px;
+    padding-top: 80px;
 }
 .portfolio {
     max-width: 570px;
@@ -152,7 +152,7 @@ body {
     padding-top: 50px;
 }
 .img_sale {
-    margin-top: 50px;
+    margin-top: 38px;
     float: right;
     width: 800px;
     height: 260px;
@@ -178,3 +178,32 @@ body {
     top: 10px;
     transform: rotate(20deg);
 }
+/* price */
+.price_title {
+    padding-top: 130px;
+}
+.about__flex__price-item {
+    margin-top: 32px;
+    max-width: 260px;
+    height: 370px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.price_cost {
+    margin-top: 32px;
+    text-align: right;
+    margin-top: -12px;
+}
+.price_name {
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+.img_price {
+    height: 270px;
+    width: 280px;
+}
+.price_desc {
+    margin-top: -30px;
+    width: 180px;
+}
+
