@@ -1,0 +1,298 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+:root{
+    --accent-color: rgba(181, 15, 0, 1);
+}
+/* text styles */
+.text-h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.text-h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+.text-h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.btn_link {
+    color: #ffffff;
+    text-decoration:none;
+}
+/* header */
+ .header {
+    color: var(--accent-color);
+    min-height: 570px;
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__title {
+    padding-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.link {
+    color: var(--accent-color);
+    text-decoration:none;
+}
+.logo_link {
+    cursor: pointer;
+}
+.text-h3 {
+    cursor: pointer;
+}
+.sale_link {
+    cursor: pointer;
+}
+.price_link {
+    cursor: pointer;
+}
+.portfolio_link {
+    cursor: pointer;
+}
+.contacts_link {
+    cursor: pointer;
+}
+
+.sign_up {
+    color: rgb(255, 255, 255);
+    width: 151px;
+    height: 37px;
+    font-size: 14px;
+    background-color: var(--accent-color);
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+/* about */
+.about__title {
+    padding-top: 50px;
+}
+.name {
+    max-width: 570px;
+    text-align: left;
+
+}
+.description {
+    margin-top: 32px;
+    max-width: 500px;
+    text-align: left;
+}
+.img_description {
+    margin-top: 50px;
+    float: right;
+    width: 550px;
+    height: 280px;
+}
+.sign_up_desc{
+    margin-top: 32px;
+    color: rgb(255, 255, 255);
+    width: 151px;
+    height: 37px;
+    font-size: 14px;
+    background-color: var(--accent-color);
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+/* portfolio */
+.portfolio_title{
+    padding-top: 80px;
+}
+.portfolio {
+    max-width: 570px;
+    text-align: left;
+}
+.portfolio_desc {
+    margin-top: 32px;
+}
+.about__flex {
+    display: inline-flex;
+}
+.about__flex-item {
+    max-width: 300px;
+    margin-right: 32px;
+}
+.img_portfolio {
+    margin-top: 32px;
+    position: relative;
+    width: 242px;
+    height: 300px;
+}
+.work_name {
+    border: 1px solid black;
+    padding: 10px 20px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 10px;
+
+}
+
+/* sale */
+.sale_title {
+    padding-top: 50px;
+}
+.img_sale {
+    margin-top: 38px;
+    float: right;
+    width: 800px;
+    height: 260px;
+    position: relative;
+}
+.sale_in {
+    margin-top: 32px;
+    max-width: 240px;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    margin-top: 100px;
+}
+.sale_price{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    transform: rotate(20deg);
+}
+/* price */
+.price_title {
+    padding-top: 130px;
+}
+.about__flex__price-item {
+    margin-top: 32px;
+    max-width: 260px;
+    height: 370px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.price_cost {
+    margin-top: 32px;
+    text-align: right;
+    margin-top: -12px;
+}
+.price_name {
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+.img_price {
+    height: 270px;
+    width: 280px;
+}
+.price_desc {
+    margin-top: -30px;
+    width: 180px;
+}
+/* online registration */
+.online__registr{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 560px;
+    height: 630px;
+}
+.registration_title {
+    padding-left: 32px;
+    border: 10px solid var(--accent-color);
+
+}
+.send {
+    margin-top: 16px;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border-radius: 40%;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.name_for_registr {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 32px;
+}
+.phone_for_registr {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 32px;
+}
+.message_for_registr{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 32px;
+}
+.color__text{
+    color: var(--accent-color);
+}
+
+/* contacts */
+.contacts_titel {
+    padding-top: 50px;
+}
+
+.contacts_name {
+    margin-top: 32px;
+}
+
+.name_studia {
+    margin-top: 32px;
+}
+.address_studia {
+    margin-top: 16px;
+}
+.phone_studia {
+    margin-top: 16px;
+}
+.map_studia {
+    margin-top: -170px;
+    margin-right: -300px;
+    float: right;
+    width: 900px;
+    max-width: 900px;
+    height: 260px;
+}
+.socials {
+    display: inline-flex;
+    margin-top: 32px;
+}
+.vk {
+    margin-right: 62px;
+}
+.tg {
+    margin-right: 62px;
+}
+.wa {
+    margin-right: 62px;
+}
