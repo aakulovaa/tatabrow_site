@@ -262,3 +262,43 @@ body {
 .color__text{
     color: var(--accent-color);
 }
+
+/* contacts */
+.contacts_titel {
+    padding-top: 50px;
+}
+
+.contacts_name {
+    margin-top: 32px;
+}
+
+.name_studia {
+    margin-top: 32px;
+}
+.address_studia {
+    margin-top: 16px;
+}
+.phone_studia {
+    margin-top: 16px;
+}
+.map_studia {
+    margin-top: -170px;
+    margin-right: -300px;
+    float: right;
+    width: 900px;
+    max-width: 900px;
+    height: 260px;
+}
+.socials {
+    display: inline-flex;
+    margin-top: 32px;
+}
+.vk {
+    margin-right: 62px;
+}
+.tg {
+    margin-right: 62px;
+}
+.wa {
+    margin-right: 62px;
+}
