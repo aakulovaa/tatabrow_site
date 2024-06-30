@@ -46,7 +46,9 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 }
-
+.logo{
+    cursor: pointer;
+}
 .sale {
     cursor: pointer;
 }
@@ -89,7 +91,7 @@ body {
 .img_description {
     margin-top: 50px;
     float: right;
-    width: 590px;
+    width: 550px;
     height: 280px;
 }
 .sign_up_desc{
@@ -103,5 +105,27 @@ body {
     cursor: pointer;
     padding: 0;
 }
-
-
+/* sale */
+.sale_title {
+    padding-top: 100px;
+}
+.img_sale {
+    margin-top: 50px;
+    float: right;
+    width: 800px;
+    height: 260px;
+}
+.sale_in {
+    margin-top: 32px;
+    max-width: 240px;
+}
+/* .circle{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+.sale_price{
+    color: #ffffff;
+    text-align-last: center;
+} */
