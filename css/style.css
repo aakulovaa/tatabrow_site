@@ -72,9 +72,6 @@ body {
     padding: 0;
 }
 /* about */
-.about {
-    min-height: 570px;
-}
 .about__title {
     padding-top: 50px;
 }
