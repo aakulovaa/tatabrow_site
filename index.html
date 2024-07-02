@@ -219,17 +219,36 @@
 
                         <div id="registration_src" class="registration_title">
                             <h2 class="text-h2 regististr_name">Запись онлайн</h2>
-                            <h3 class="text-h3">Ваше имя:</h3>
-                            <input type="text" id="name" class="text-h3 name_for_registr">
-                            <h3 class="text-h3">Контактный телефон:</h3>
-                            <input type="tel" id="phone" class="text-h3 phone_for_registr">
-                            <h3 class="text-h3">Сообщение:</h3>
-                            <input type="text" id="message" class="text-h3 message_for_registr">
-                            <form>
-                                <input id="agree" type="checkbox">
-                                <label for="agree">Я согласен(а) на <span class="color__text">обработку персональных данных</span></label>
+
+                            <form method="POST" id="form">
+
+                                <div>
+                                    <h3 class="text-h3">Ваше имя:</h3>
+                                    <input type="text" id="name" name="name" class="text-h3 name_for_registr">
+                                </div>
+
+                                <div>
+                                    <h3 class="text-h3">Контактный телефон:</h3>
+                                    <input type="tel" id="phone" name="phone" class="text-h3 phone_for_registr">
+                                </div>
+
+                                <div>
+                                    <h3 class="text-h3">Сообщение:</h3>
+                                    <input type="text" id="message" name="message" class="text-h3 message_for_registr">
+                                </div>
+
+                                <div>
+                                    <input id="agree" type="checkbox" name="agree">
+                                    <label for="agree">Я согласен(а) на <span class="color__text">обработку персональных данных</span></label>
+                                </div>
+
+                                <div>
+                                    <button type="submit" class="send">Отправить</button>
+                                </div>
+
                             </form>
-                            <button class="send">Отправить</button>
+                            <script src="./register.js"></script>
+
                         </div>
                     </div>
                 </div>
